@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Bookmark landing page</title>
+  <link rel="stylesheet" href="./src/styles.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+</head>
+<body>
+  <header id="header">
+    <div class="navigation">
+      <div class="brand">
+        <img src="./images/logo-bookmark.svg" class="logo" alt="">
+      </div>
+      <ul class="nav_lists">
+        <li>Features</li>
+        <li>Pricing</li>
+        <li>Contact</li>
+        <li>Login</li>
+      </ul>
+      <div class="mobile_nav_lists">
+        <div class="menu_bar">
+          <img src="./images/icon-hamburger.svg" class="menu__bar" alt="">
+        </div>
+        <ul class="nav__lists">
+          <div class="close_bar">
+            <img src="./images/icon-close.svg" class="close__bar" alt="">
+          </div>
+          <div class="lists">
+            <li>Features</li>
+            <li>Pricing</li>
+            <li>Contact</li>
+            <li>Login</li>
+          </div>
+          <div class="socials">
+            <img src="./images/icon-facebook.svg" alt="">
+            <img src="./images/icon-twitter.svg" alt="">
+          </div>
+        </ul>
+      </div>
+    </div>
+    <div class="header_body">
+      <div class="header_body_container">
+        <div class="left_content">
+          <h2 class="title">A Simple Bookmark Manager</h2>
+          <p class="desc">
+            A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.
+          </p>
+          <div class="cta_btns">
+            <button class="chrome">Get it on Chrome</button>
+            <button class="firefox">Get it on Firefox</button>
+          </div>
+        </div>
+        <div class="right_content">
+          <div class="blue_background"></div>
+          <img src="./images/illustration-hero.svg" class="hero_img" alt="">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="features">
+      <!-- Head Container -->
+      <div class="features_head">
+        <h2 class="heading">
+          Features
+        </h2>
+        <p class="desc">
+          Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your
+          devices so you can access them on the go.
+        </p>
+      </div>
+      
+      <!-- Tab Container -->
+      <div class="tab_component">
+        <div class="tabs">
+          <div class="tabs_container">
+            <p class="tab active" id="bookmarking">
+              Simple Bookmarking
+            </p>
+            <p class="tab" id="searching">
+              Speedy Searching
+            </p>
+            <p class="tab" id="sharing">
+              Easy Sharing
+            </p>
+          </div>
+          <div class="tab_border"></div>
+        </div>
+        <div class="tab_contents">
+          <div class="tab_blue_background"></div>
+          <!-- First tab content -->
+          <div class="tab_content bookmarking active">
+            <div class="content_left">
+              <img src="./images/illustration-features-tab-1.svg" class="feature_img" alt="">
+            </div>
+            <div class="content_right">
+              <h2>
+                Bookmark in one click
+              </h2>
+              <p>
+                Organize your bookmarks however you like. Our simple drag-and-drop interface
+                gives you complete control over how you manage your favorites sites.
+              </p>
+              <button>More Info</button>
+            </div>
+          </div>
+          <!-- Second tab content -->
+          <div class="tab_content searching">
+            <div class="content_left">
+              <img src="./images/illustration-features-tab-2.svg" class="feature_img" alt="">
+            </div>
+            <div class="content_right">
+              <h2>
+                Intelligent search
+              </h2>
+              <p>
+                Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks.
+              </p>
+              <button>More Info</button>
+            </div>
+          </div>
+          <!-- Second tab content -->
+          <div class="tab_content sharing">
+            <div class="content_left">
+              <img src="./images/illustration-features-tab-3.svg" class="feature_img" alt="">
+            </div>
+            <div class="content_right">
+              <h2>
+                Share your bookmarks
+              </h2>
+              <p>
+                Easily share your bookmarks and collections with others. Create a shareable
+                link that you can send at the click of a button.
+              </p>
+              <button>More Info</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+  </main>
+  
+
+  
+
+  
+  <footer>
+    <!-- <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </p> -->
+  </footer>
+
+  <!-- Script -->
+  <script src="./src/main.js"></script>
+</body>
+</html>
